@@ -2,8 +2,8 @@
 
 using namespace std;
 
-// #pragma GCC optimize("Ofast,unroll-loops") 
-// #pragma GCC target("avx,avx2,avx512,fma") 
+#pragma GCC optimize("Ofast,unroll-loops")
+#pragma GCC target("avx,avx2,avx512,fma")
 
 #define ll long long int
 #define ld long double
@@ -19,10 +19,10 @@ void solution() {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    int t = 1;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    ll t = 1;
     // cin>>t;
     while (t--) {
         solution();
