@@ -17,6 +17,8 @@ using namespace std;
 #define print(x) for(auto element:x) cout << element << " ";
 #define endl "\n"
 
+#define I_AM_OUTSIDER = true;
+
 // freopen("file.txt","r",stdin);
 // getline(cin,string);
 // num % mod = (num % mod + mod) % mod
