@@ -11,7 +11,9 @@ using namespace std;
 #define PI acos(-1)
 #define inf LONG_LONG_MAX
 #define MOD (1'000'000'000+7)
-#define MOD2 (1'000'000'000+9)
+#define MOD_ (1'000'000'000+9)
+#define BASE (911382323)
+#define BASE_ (972663749)
 #define EPS 1e-9
 #define all(x) x.begin(),x.end()
 #define print(x) for(auto element:x) cout << element << " ";
