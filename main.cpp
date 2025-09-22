@@ -5,8 +5,10 @@
 using namespace __gnu_pbds;
 using namespace std;
 
-template<class T> using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
-template<class T> using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
+template<class T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+template<class T>
+using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 #pragma GCC optimize("Ofast,unroll-loops")
 // #pragma GCC target("avx,avx2,avx512,fma")
@@ -21,8 +23,8 @@ template<class T> using ordered_multiset = tree<T, null_type, less_equal<T>, rb_
 #define BASE (911382323)
 #define BASE_ (972663749)
 #define EPS 1e-9
-#define all(x) x.begin(),x.end()
-#define print(x) for(auto element:x) cout << element << " ";
+#define all(x) x.begin(), x.end()
+#define print(x) for (auto element : x) cout << element << " ";
 #define endl "\n"
 
 #define I_AM_OUTSIDER = true;
