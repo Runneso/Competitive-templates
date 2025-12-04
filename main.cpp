@@ -28,6 +28,7 @@ using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_ord
 #define endl "\n"
 
 #define I_AM_OUTSIDER = true;
+#define RAMAZAN_RAKHMATULLIN_FAN_CLUB = true;
 
 // freopen("file.txt","r",stdin);
 // getline(cin,string);
