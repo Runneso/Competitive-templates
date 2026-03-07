@@ -30,6 +30,10 @@ using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_ord
 #define I_AM_OUTSIDER = true;
 #define RAMAZAN_RAKHMATULLIN_FAN_CLUB = true;
 
+function<ll(ll,ll)> randint = [](ll l, ll r) {
+        return rand() % (r - l + 1) + l;
+};
+
 // freopen("file.txt","r",stdin);
 // getline(cin,string);
 // num % mod = (num % mod + mod) % mod
