@@ -30,8 +30,9 @@ using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_ord
 #define I_AM_OUTSIDER = true;
 #define RAMAZAN_RAKHMATULLIN_FAN_CLUB = true;
 
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 function<ll(ll,ll)> randint = [](ll l, ll r) {
-        return rand() % (r - l + 1) + l;
+        return rng() % (r - l + 1) + l;
 };
 
 // freopen("file.txt","r",stdin);
