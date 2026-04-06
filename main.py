@@ -24,7 +24,7 @@ def solve():
 
 
 def main():
-    stack_size(2 ** 26), setrecursionlimit(10 ** 9)
+    stack_size(2 ** 23), setrecursionlimit(10 ** 9)
     t = 1
     while t > 0:
         solve()
